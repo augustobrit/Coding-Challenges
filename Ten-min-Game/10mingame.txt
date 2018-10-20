@@ -1,0 +1,6 @@
+- Left/Right
+- Spawn Size/Angle Random
+- Timer
+- Collision
+- Score
+- Recycle
