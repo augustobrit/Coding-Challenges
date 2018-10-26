@@ -30,16 +30,16 @@ function draw() {
 }
 
 function keyPressed() {
-	if (keyCode === UP_ARROW) {
+	if (keyCode === UP_ARROW || keyCode === 87) {
 		snake.setDirection(0, -1);
 	}
-	if (keyCode === LEFT_ARROW) {
+	if (keyCode === LEFT_ARROW || keyCode === 65) {
 		snake.setDirection(-1, 0);
 	}
-	if(keyCode === DOWN_ARROW) {
+	if(keyCode === DOWN_ARROW || keyCode === 83) {
 		snake.setDirection(0, 1);
 	}
-	if (keyCode === RIGHT_ARROW) {
+	if (keyCode === RIGHT_ARROW || keyCode === 68) {
 		snake.setDirection(1, 0);
 	}
 }
@@ -85,6 +85,8 @@ function grid() {
 function snake() {
 	this.position = createVector(0, 0);
 	this.direction = createVector(0, 0);
+	this.node = [];
+	this.nodes = 0;
 
 	this.eat = function() {
 		let d = dist
@@ -96,6 +98,8 @@ function snake() {
 				);
 
 		if(d < 1) {
+			this.nodes++;
+			print("NODES: ", this.nodes);
 			return true;
 		}
 		return false;
@@ -106,13 +110,36 @@ function snake() {
 	}
 
 	this.move = function() {
-		this.position.x = this.position.x + this.direction.x * SCALE;
-		this.position.y = this.position.y + this.direction.y * SCALE;
+		if(this.nodes === this.node.length) {		
+			for(let i = 0; i < this.node.length - 1; i++) {
+				this.node[i] = this.node[i + 1];
+			}
+		}
+
+		this.node[this.nodes - 1] = createVector(
+				this.position.x, 
+				this.position.y
+			);
+
+		this.position.x = constrain(
+			this.position.x + this.direction.x * SCALE,
+			0, 
+			width - SCALE
+		);
+		
+		this.position.y = constrain(
+			this.position.y + this.direction.y * SCALE,
+			0,
+			height - SCALE
+		);
 	}
 
 	this.show = function() {
 		noStroke();
 		fill(200);
+		for(let i = 0; i < this.node.length; i++) {
+			rect(this.node[i].x, this.node[i].y, SCALE, SCALE)
+		}
 		rect(this.position.x, this.position.y, SCALE, SCALE);	
 	}
 }

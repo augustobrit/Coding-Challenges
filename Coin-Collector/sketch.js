@@ -55,15 +55,15 @@ function keyPressed() {
 		player.move();
 	}
 
-	if (keyIsDown(LEFT_ARROW)) {
+	else if (keyIsDown(LEFT_ARROW)) {
 		player.move();
 	}
 
-	if(keyIsDown(DOWN_ARROW)) {
+	else if(keyIsDown(DOWN_ARROW)) {
 		player.move();
 	}
 
-	if (keyIsDown(RIGHT_ARROW)) {
+	else if (keyIsDown(RIGHT_ARROW)) {
 		player.move();
 	}
 }
