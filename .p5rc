@@ -2,11 +2,12 @@
   "name": "Coding-Challenges",
   "projects": [
     "Coin-Collector",
+    "Entanglement",
+    "Falling-Blocks",
     "Heavy-Rain",
     "Method-of-Exhaustion",
     "Snake-Game",
     "Sprite-Animator",
-    "Ten-min-Game",
     "Square-Rotation",
     "Space-Invaders"
   ]
