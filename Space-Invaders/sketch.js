@@ -17,6 +17,7 @@ var ship;
 var invaders = [];
 var bullets = [];
 var amount;
+var test;
 
 function setup() {
 	createCanvas(375, 500);
