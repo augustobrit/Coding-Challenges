@@ -21,8 +21,6 @@ var amount;
 function setup() {
 	createCanvas(375, 500);
 
-	// Setup HUD
-
 	// Setup ship
 	this.ship = new ship(width/2, height - 100, SHIP_SIZE, SHIP_SPEED);
 	
