@@ -22,7 +22,7 @@ Description
 [Demo](https://augustobrit.github.io/coding-challenges/heavy-rain/index.html)
 
 ### Method of Exhaustion
-A simple animation of multiplication spiral based on this [article](https://www.intmath.com/blog/mathematics/real-story-behind-tesla-map-multiplication-chart-10889)
+A simple animation of the method based on this [article](https://en.wikipedia.org/wiki/Method_of_exhaustion)
 
 [Demo](https://augustobrit.github.io/coding-challenges/method-of-exhaustion/index.html)
 
