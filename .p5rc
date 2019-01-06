@@ -1,14 +1,14 @@
 {
-  "name": "Coding-Challenges",
+  "name": "coding-challenges",
   "projects": [
-    "Coin-Collector",
-    "Entanglement",
-    "Falling-Blocks",
-    "Heavy-Rain",
-    "Method-of-Exhaustion",
-    "Snake-Game",
-    "Sprite-Animator",
-    "Square-Rotation",
-    "Space-Invaders"
+    "coin-collector",
+    "entanglement",
+    "falling-blocks",
+    "heavy-rain",
+    "method-of-exhaustion",
+    "snake-game",
+    "space-invaders",
+    "sprite-animator",
+    "square-rotation"
   ]
 }
