@@ -9,6 +9,8 @@
     "snake-game",
     "space-invaders",
     "sprite-animator",
-    "square-rotation"
+    "square-rotation",
+    "shmup-game",
+    "frogger-remake"
   ]
 }

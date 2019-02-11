@@ -45,3 +45,9 @@ Description
 Description
 
 [Demo](https://augustobrit.github.io/coding-challenges/square-rotation/index.html)
+
+
+### Shmup Game
+A simple Shmup game.
+
+[Demo](https://augustobrit.github.io/coding-challenges/shmup-game/index.html)
