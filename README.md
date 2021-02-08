@@ -1,53 +1,107 @@
 # About
 A collection of programming challenges that i proposed myself to code using p5js and html.
 
-### Coin Collector
+## Coin Collector
 Description
 
-[Demo](https://augustobrit.github.io/coding-challenges/coin-collector/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/coin-collector/index.html)
 
-### Entanglement
+---
+
+## Entanglement
 Description
 
-[Demo](https://augustobrit.github.io/coding-challenges/entanglement/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/entanglement/index.html)
 
-### Falling Blocks
+---
+
+## Falling Blocks
 Description
 
-[Demo](https://augustobrit.github.io/coding-challenges/falling-blocks/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/falling-blocks/index.html)
 
-### Heavy Rain
+---
+
+## Heavy Rain
 Description
 
-[Demo](https://augustobrit.github.io/coding-challenges/heavy-rain/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/heavy-rain/index.html)
 
-### Method of Exhaustion
+---
+
+## Method of Exhaustion
 A simple animation of the method based on this [article](https://en.wikipedia.org/wiki/Method_of_exhaustion)
 
-[Demo](https://augustobrit.github.io/coding-challenges/method-of-exhaustion/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/method-of-exhaustion/index.html)
 
-### Snake Game
+---
+
+## Snake Game
 Simple snake game.
 
-[Demo](https://augustobrit.github.io/coding-challenges/snake-game/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/snake-game/index.html)
 
-### Space Invaders
+---
+
+## Space Invaders
 Game based on original Atari Space Invaders.
 
-[Demo](https://augustobrit.github.io/coding-challenges/space-invaders/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/space-invaders/index.html)
 
-### Sprite Animator
+---
+
+## Sprite Animator
 Description
 
-[Demo](https://augustobrit.github.io/coding-challenges/sprite-animator/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/sprite-animator/index.html)
 
-### Square Rotation
+---
+
+## Square Rotation
 Description
 
-[Demo](https://augustobrit.github.io/coding-challenges/square-rotation/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/square-rotation/index.html)
 
+---
 
-### Shmup Game
+## Shmup Game
 A simple Shmup game.
 
-[Demo](https://augustobrit.github.io/coding-challenges/shmup-game/index.html)
+[Demo](https://augustobritome.github.io/coding-challenges/projects/shmup-game/index.html)
+
+---
+
+## Fibonnaci Spiral
+An animation of a Fibonnaci spiral.
+
+[Demo](https://augustobritome.github.io/coding-challenges/projects/fibonacci-spiral/index.html)
+
+---
+
+## Wave Spiral
+An animation of a Wave spiral.
+
+[Demo](https://augustobritome.github.io/coding-challenges/projects/wave-spiral/index.html)
+
+---
+
+## Pointing Squares
+An animation of a Pointing Squares.
+
+[Demo](https://augustobritome.github.io/coding-challenges/projects/pointing-squares/index.html)
+
+---
+
+## Joey Greather Spiral
+An algorithm to generate multiplication spiral in p5js inspired by this [article](https://www.intmath.com/blog/mathematics/real-story-behind-tesla-map-multiplication-chart-10889).
+
+[Demo](https://augustobritome.github.io/coding-challenges/projects/joey-grether-spiral/index.html)
+
+---
+
+## Simon Say Game
+A simple game.
+
+[Demo](https://augustobritome.github.io/coding-challenges/projects/simon-say-game/index.html)
+
+---
