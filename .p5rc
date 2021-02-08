@@ -4,13 +4,18 @@
     "coin-collector",
     "entanglement",
     "falling-blocks",
+    "fibonnaci-spiral",
+    "frogger-remake",
     "heavy-rain",
+    "joey-grether-spiral",
     "method-of-exhaustion",
+    "pointing-squares",
+    "shmup-game",
+    "simon-say-game",
     "snake-game",
     "space-invaders",
     "sprite-animator",
     "square-rotation",
-    "shmup-game",
-    "frogger-remake"
+    "wave-spiral"
   ]
 }
