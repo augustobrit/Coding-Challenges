@@ -5,8 +5,9 @@ var snake;
 var apple;
 
 function setup() {
-	createCanvas(500, 500);
+	createCanvas(windowWidth, windowHeight);
 	frameRate(10);
+
 	
 	grid = new grid();
 	grid.generate();

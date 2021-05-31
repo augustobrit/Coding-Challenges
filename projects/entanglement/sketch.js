@@ -1,8 +1,9 @@
-const COLOR = 200;
+
+const COLOR = [200, 200, 200];
 const MIN_SIZE = 3;
 const MAX_SIZE = 10;
-const AMOUNT = 50;
-const MAX_SPEED = 1.5;
+const AMOUNT = 100;
+const MAX_SPEED = 2.5;
 const MIN_SPEED = 0.3;
 const MIN_DISTANCE = 110;
 
@@ -32,10 +33,10 @@ function draw() {
 
 		for(j = i + 1; j < circles.length; j++) {
 			var c2 = this.circles[j];
-			var d = dist(c1.x, c1.y, c2.x, c2.y);
-			if (d <= MIN_DISTANCE) {
-				let a = lerp(255, 0, map(d, 0, floor(255/2), 0, 1));
-				stroke(COLOR, a);
+			var d = sqrDistance(c1.x, c1.y, c2.x, c2.y);
+			if (d <= (MIN_DISTANCE * MIN_DISTANCE)) {
+				let a = lerp(255, 0, map(d, 0, Math.pow(255, 1.5), 0, 1));
+				stroke(...COLOR, a);
 				strokeWeight(1);
 				line(c1.x, c1.y, c2.x, c2.y);
 			}
@@ -64,7 +65,7 @@ function circle(x, y, r, xSpeed, ySpeed) {
 
 	this.show = function() {
 		noStroke();
-		fill(COLOR);
+		fill(...COLOR);
 		ellipse(this.x, this.y, this.r, this.r);
 	}
 }
